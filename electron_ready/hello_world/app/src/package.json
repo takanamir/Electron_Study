@@ -1,0 +1,18 @@
+{
+  "name": "Sample",
+  "version": "1.0.0",
+  "description": "This is a sample.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/electron .",
+    "release": "node release.js"
+  },
+  "keywords": [],
+  "author": "Takanami",
+  "license": "",
+  "dependencies": {
+    "encoding-japanese": "^1.0.24"
+  },
+  "devDependencies": {}
+}
